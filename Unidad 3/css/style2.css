@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    width: 85%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #1F313D;
+    height: 6%;
+}
+
+nav img {
+    width: 10%;
+    height: 80%;
+    padding-left: 30;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 20;
+    align-self: flex-end;
+}
+
+#buscador {
+    height: 50%;
+    width: 60%;
+}
+
+p {
+    font-size: 1em;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #AEB9C5;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer img:first-child {
+    width: 15%;
+    height: auto;
+}
+
+#pFooter {
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    text-shadow: #0057FF 0.05em 0.05em 0.1em;
+    font-size: 3em;
+    text-align: center;
+}
+
+#bienvenida {
+    position: relative;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+#butBienvenidos a {
+    padding: 10 20;
+    width: 100%;
+    color: #0057FF;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.prueba {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.prueba a {
+    padding: 12;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #0057FF;
+    text-decoration: none;
+}
+
+#cuerpo {
+    margin: 0;
+    text-align: center;
+    padding: 10;
+}
+
+#cuerpo h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#cuerpo p {
+    font-size: 1.15em;
+    text-align: center;
+}
+
+#bienvenida img {
+    width: 100%;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.flex img {
+    width: 20%;
+}
